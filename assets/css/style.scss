@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main{
+   background-image: url(../img/main-bg.png);
+   height: 800px;
+   background-position: center;
+   background-size: cover;
+}
+
+.about{
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+    }
+    &__dots{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+    }
+    &__blod{
+       position: absolute;
+       bottom: -160px;
+    }
+    
+}
